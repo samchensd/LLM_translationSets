@@ -9,3 +9,14 @@ This repository provides tooling for translating enterprise SaaS applications us
 3. Parse the model's responses and generate a translated Excel file.
 
 This project aims to automate the entire pipeline from export to re-upload so that apps can quickly support multiple languages.
+
+## Development Setup
+
+This project follows a standard Python layout:
+
+- `src/llm_translation_sets/` contains the library code.
+- `tests/` holds unit tests.
+- `data/` can store example translation sets.
+- `docs/` is reserved for future documentation.
+
+Start by adding modules under `src/llm_translation_sets` and corresponding tests in `tests`.
