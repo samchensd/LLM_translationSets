@@ -4,9 +4,8 @@ This repository provides tooling for translating enterprise SaaS applications us
 
 ## Workflow
 
-1. Export the English strings for each module to an Excel file.
+1. Open and read the exported translation set (.xlsx).
 2. Invoke an LLM with the strings and contextual information about the app.
 3. Parse the model's responses and generate a translated Excel file.
-4. Upload the translated file back into the application.
 
 This project aims to automate the entire pipeline from export to re-upload so that apps can quickly support multiple languages.
